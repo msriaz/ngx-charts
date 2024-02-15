@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-charts",
+            "outputPath": "dist/ngx-charts-extended",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,18 +75,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-charts:build"
+            "browserTarget": "ngx-charts-extended:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-charts:build:production"
+              "browserTarget": "ngx-charts-extended:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-charts:build"
+            "browserTarget": "ngx-charts-extended:build"
           }
         },
         "test": {
@@ -111,17 +111,17 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ngx-charts:serve"
+            "devServerTarget": "ngx-charts-extended:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ngx-charts:serve:production"
+              "devServerTarget": "ngx-charts-extended:serve:production"
             }
           }
         }
       }
     },
-    "@swimlane/ngx-charts": {
+    "@sriaz/ngx-charts-extended": {
       "projectType": "library",
       "root": "projects/swimlane/ngx-charts",
       "sourceRoot": "projects/swimlane/ngx-charts/src",
@@ -156,5 +156,5 @@
       }
     }
   },
-  "defaultProject": "ngx-charts"
+  "defaultProject": "ngx-charts-extended"
 }
