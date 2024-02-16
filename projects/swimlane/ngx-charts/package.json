@@ -1,6 +1,6 @@
 {
-  "name": "@sriaz/ngx-charts-extended",
-  "version": "20.5.0",
+  "name": "ngx-charts-extended",
+  "version": "0.0.3",
   "description": "Declarative Charting Framework for Angular",
   "repository": {
     "type": "git",

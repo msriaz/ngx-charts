@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-charts": {
+    "ngx-charts-extended-x": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -121,7 +121,7 @@
         }
       }
     },
-    "@sriaz/ngx-charts-extended": {
+    "ngx-charts-extended": {
       "projectType": "library",
       "root": "projects/swimlane/ngx-charts",
       "sourceRoot": "projects/swimlane/ngx-charts/src",
@@ -155,6 +155,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ngx-charts-extended"
+  }
 }
